@@ -1,0 +1,220 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255) !important;
+    width: 100%;
+    font-family: "Lato", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+}
+
+header{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Spartan';
+    color: #e7a7b5;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Spartan';
+}
+
+.top {
+    padding: 9em 0;
+    position: relative;
+}
+
+title{
+    display: none;
+}
+
+* {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.positioning {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-5 .col-md-6 .col-lg-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a {
+    color: #e7a7b5;
+}
+
+.img-main {
+    max-width: 100%;
+    height: auto;
+}
+figure {
+    vertical-align: middle;
+    border-style: none;
+}
+
+#unlink{
+    text-decoration: none;
+    color: gray;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.product-details h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h1 h2 h3{
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000000;
+}
+h3 .h3 {
+    font-size: 1.75rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.product-details .price span {
+    font-size: 30px;
+    color: #000000;
+}
+
+.studentprice{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.row {
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.btn.btn-primary {
+    background: #e7a7b5;
+    border: 1px solid #e7a7b5;
+    color: #fff;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: none !important;
+}
+
+.py-3, .px-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+}
+
+.review-section{
+    width: 70%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 150px;
+}
+
+.review-title{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.review-indent{
+    text-indent: 20px;
+}
+
+.review-person{
+    color: #e7a7b5;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+@media screen and (min-width: 768px){
+.positioning {
+    width: 70%;
+}
+}
+
+@media screen and (min-width: 768px){
+.pl-md-5, .px-md-5 {
+    padding-left: 3rem !important;
+}
+}
+
+
+@media screen and (min-width: 768px){
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+@media screen and  (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
