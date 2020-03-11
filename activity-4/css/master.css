@@ -20,6 +20,10 @@ header{
     color: #e7a7b5;
 }
 
+#greeting{
+    font-size: 1em;
+}
+
 footer{
     text-align: center;
     font-family: 'Spartan';
@@ -67,7 +71,9 @@ title{
 }
 
 a {
-    color: #e7a7b5;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 .img-main {
@@ -127,10 +133,11 @@ p {
     color: #000000;
 }
 
-.studentprice{
-    color: black;
-    font-size: 1.5em;
-    font-weight: 500;
+.studentPrice{
+    color: #ab7bca;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Spartan';
 }
 
 .row {
@@ -147,6 +154,7 @@ p {
     background: #e7a7b5;
     border: 1px solid #e7a7b5;
     color: #fff;
+    text-align: center;
 }
 
 .btn {

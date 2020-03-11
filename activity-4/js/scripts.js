@@ -15,4 +15,4 @@ var price = 140,
     studentPriceEl = document.getElementById('studentPrice');
 
 priceEl.textContent = price.toFixed(2);
-studentPriceEl.textContext = studentPrice.toFixed(2);
+studentPriceEl.textContent = studentPrice.toFixed(2);
