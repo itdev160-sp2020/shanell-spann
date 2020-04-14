@@ -16,14 +16,14 @@ header{
 
 .header-image{
     position: relative;
-    text-align: right;
-    color: rgb(252, 232, 218);
+    text-align: left;
+    color: white;
 }
 
 .header-image-text{
     position: absolute;
     top: 8px;
-    right: 20px;
+    left: 20px;
     font-size: 5rem;
     width: 60%;
 }
@@ -32,7 +32,7 @@ img{
     width: 100%;
     object-fit: cover;
     object-position: center;
-    filter: brightness(80%);
+    filter: brightness(75%);
 }
 
 .main{
@@ -49,9 +49,19 @@ img{
     margin-left: 1%;
     padding: 1.5%;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid rgb(125, 114, 224);
     border-radius: 2%;
+    color: black;
 }
+
+.package-container:hover{
+    background-color: rgb(255, 253, 249);
+}
+
+#p1-name, #p2-name, #p3-name{
+    color: rgb(57, 44, 172);
+}
+
 
 #p1-url, #p2-url, #p3-url{
     display: none;
@@ -59,13 +69,20 @@ img{
 
 .learn-more{
     margin: 0 auto;
-    background-color: black;
+    background-color: rgb(57, 44, 172);
     width: 40%;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     text-align: center;
     border-radius: 9px;
     
+}
+
+.learn-more:hover{
+    background-color: rgb(125, 114, 224);
+    width: 42%;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
 }
 
 a{
