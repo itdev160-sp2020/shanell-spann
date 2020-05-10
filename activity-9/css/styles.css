@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato&family=Raleway&display=swap');
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+#main-header{
+    background-color: rgb(66, 24, 0);
+}
+
+#main-header h1{
+    color: rgb(175, 88, 38);
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sidebar{
+    width: 225px;
+    flex: 0 0 12em;
+    background-color: rgb(66, 24, 0);
+}
+
+#sidebar ul{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    list-style-type: none;
+}
+
+#sidebar ul li{
+    color: rgb(175, 88, 38);
+    padding: 0 0 10px 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sidebar ul li:hover{
+    cursor: pointer;
+    background-color: rgba(110, 49, 14, 0.575);
+    color: rgb(221, 122, 65);
+}
+
+#post-container{
+    flex:1;
+    background-color: rgb(212, 158, 126);
+    color: rgb(110, 49, 14);
+    padding: 20px;
+}
+
+#intro{
+    display: none;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+}
+
+blockquote{
+    font-style: italic;
+    margin: 1em 1em 1em 0;
+}
+
+blockquote:before blockquote:after{
+    content: "";
+}
+
+.author{
+    width: 100%;
+    display: inline-block;
+    text-indent: 5%;
+    font-family: 'Homemade Apple', cursive;
+}
+
+.author:before{
+    content:'-';
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: dimgray; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
+
+
+
+
+
