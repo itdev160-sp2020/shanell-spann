@@ -1,0 +1,131 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #69140e;
+    color: black;
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    padding: 5px;
+    color: #f1ffe7;
+    background-color: #3c1518;
+    border-bottom: solid 1px #1f0b0c;
+    overflow: hidden;
+    box-shadow: 1px 2px 5px rgb(12, 2, 2);
+}
+
+header .header-title{
+    display: inline-block;
+}
+
+header .header-menu{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: gray;
+    font-size: smaller;
+}
+
+main{
+    flex: 1;
+}
+
+main #display-content{
+    padding: 20px;
+}
+
+#modal-backdrop{
+    display:none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#modal-backdrop.visible{
+    display:block;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    padding: 15px;
+    border: solid 1px #a76622;
+    border-radius: 5px;
+    background-color: #d58936;
+    z-index: 99999;
+    width: 300px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal.visible{
+    display:block;
+}
+
+.modal-content{
+    width: 300px;
+    height: 300px;
+}
+
+#edit-title{
+    width: 300px;
+}
+
+
+#edit-content-text{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #3c1518;
+}
+
+
+
+input{
+    border: 0.5;
+    border-radius: 8px;
+    background-color: #f2f3fa;
+}
+
+textarea{
+    border-radius: 8px;
+    background-color: #f2f3fa;
+}
+
+#new-button{
+    width: 6em;
+    height: 2.5em;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c24e00;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2), 0 6px 20px 0 rgba(10, 10, 10, 0.2);
+}
+
+#new-button:hover{
+    background-color: #ff6f0f;
+
+}
+
+.modal-buttons{
+    margin-top: 10px;
+    position: absolute;
+    left: 35%;
+}
